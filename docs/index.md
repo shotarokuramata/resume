@@ -16,13 +16,39 @@
 
 ## 経歴詳細
 
-### プロジェクト名:顧客基盤
+### プロジェクト名:顧客基盤統合
 
 社内で分散している顧客情報を統合、管理するプロジェクト。
 
 #### 実施したこと
 
 - 旧会員基盤から新会員基盤へ、会員情報を移行するためのサービスの開発
+-
+
+#### 期間
+
+2024/10 ~ 現在
+
+#### 使用した技術
+
+- Python
+- pytest
+- Next.js
+- Jest
+- MongoDB(AWS DocumentDB)
+- AWS APIGateway
+- AWS Lambda
+- AWS StepFunctions
+- AWS S3
+- ServerlessFramework
+- GitHub Codespaces
+- GitHub Actions
+
+#### 関係部署
+
+#### 課題や工夫したこと
+
+#### これから取り組みたいこと
 
 ### プロジェクト名:デジタルパンフレット
 
@@ -48,7 +74,7 @@
 
 2024/04 ~ 2024/10 (他プロジェクトの兼務あり)
 
-#### 仕様した技術
+#### 使用した技術
 
 - PHP
 - Phalcon + 社内フレームワーク
@@ -59,8 +85,9 @@
 - AWS StepFunctions
 - AWS Lambda
 - AWS Batch
+- AWS S3
 - AWS CloudFormation
-- AWS CloudWatch
+- Github Actions
 
 #### 関係部署
 
