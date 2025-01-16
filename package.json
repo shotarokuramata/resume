@@ -6,7 +6,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "lint": "textlint . && markdownlint **/*.md"
+    "lint": "textlint . && markdownlint **/*.md",
+    "fix": "textlint --fix ."
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,9 @@
+{
+    "cSpell.words": [
+        "textlint"
+    ],
+    "markdownlint.config": {
+        "default": true,
+        "MD024": false
+    }
+}
