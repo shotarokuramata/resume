@@ -19,8 +19,13 @@
 
 #### 実施したこと
 
-- 旧会員基盤から新会員基盤へ、会員情報を移行するためのサービスの開発
--
+- 旧会員基盤(RDS)から新会員基盤(DocDB)へ、会員情報を移行するサービスの開発
+  - 旧会員基盤への影響を抑えて随時差分を移行できるよう設計した
+  - StepFunctionsを利用し、並列にスケールできる設計にした
+- メールマガジン関連サービスの開発
+- API GatewayにアタッチするAuthorizerの開発
+- Codespacesを用いて、開発環境を共通化できるよう整備
+- ServerlessFrameworkを用いてIaCを整備
 
 #### 期間
 
@@ -37,11 +42,22 @@
 - AWS Lambda
 - AWS StepFunctions
 - AWS S3
-- ServerlessFramework
 - GitHub Codespaces
 - GitHub Actions
+- ServerlessFramework
+- Auth0(by Okta)
 
-#### 関係部署
+#### 体制
+
+- 開発部
+  - 私含め3名の開発チーム
+    - PdM一名, 開発者2名
+  - オフショア開発チーム
+    - 開発者2名
+  - その他、連携先サービス開発チーム
+- インフラチーム
+- デザインチーム
+- 営業部書
 
 #### 課題や工夫したこと
 
@@ -76,7 +92,6 @@
 - PHP
 - Phalcon + 社内フレームワーク
 - Docker
-- Ghostscript
 - AWS Aurora MySQL
 - AWS ECS on Fargate
 - AWS StepFunctions
@@ -86,7 +101,7 @@
 - AWS CloudFormation
 - Github Actions
 
-#### 関係部署
+#### 体制
 
 - 開発部
   - 私一名
