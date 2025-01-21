@@ -4,6 +4,7 @@
     },
     "MD041": false, // true: ファイルの最初の行は、トップレベルの見出しにする
     "MD034": false,
+    "MD033": false,
     "MD024": false,
     "ignores": [".git", "node_modules", ".hasky"]
 }

@@ -16,8 +16,6 @@ layout: default
 | 最終学歴 | 中央大学 法学部 政治学科                                                            |
 | 資格     | AWS Certified Solutions Architect Associate, LinuC レベル 1, 総合旅行業務取扱管理者 |
 
-<div style="page-break-before:always"></div>
-
 ## 経歴詳細
 
 ### プロジェクト名:顧客基盤統合
@@ -98,7 +96,9 @@ layout: default
 
 - Next.js について、AppRouter のベストプラクティスがまだあまり世の中に存在していないように思えるため、新しい情報をキャッチアップしていきたい
 
-- Auth0 についてサーバー側で扱った経験はあるが、フロント側で初めて扱うため RFC を理解したい
+- Auth0 についてサーバー側で扱った経験はあるが、フロント側で初めて扱うため RFC を理解してよりセキュアな実装をしたい
+
+<div style="page-break-before:always"></div>
 
 ### プロジェクト名:デジタルパンフレット
 
@@ -184,6 +184,8 @@ layout: default
 - 画像処理について、パンフレット単位の並列化ではなくページ単位の並列化を実施したかった
 
   - こちらも稼働時期を鑑みて、既存のソースをなるべく生かす方法で移行した
+
+<div style="page-break-before:always"></div>
 
 ## 御社でこれから取り組んでいきたいこと
 
