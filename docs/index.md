@@ -16,6 +16,8 @@ layout: default
 | 最終学歴 | 中央大学 法学部 政治学科                                                            |
 | 資格     | AWS Certified Solutions Architect Associate, LinuC レベル 1, 総合旅行業務取扱管理者 |
 
+<div style="page-break-before:always"></div>
+
 ## 経歴詳細
 
 ### プロジェクト名:顧客基盤統合
