@@ -11,7 +11,7 @@ layout: default
 | 名前     | 倉又 祥太郎                                                                         |
 | メール   | shotarokuramata@gmail.com                                                           |
 | GitHub   | https://github.com/shotarokuramata                                                  |
-| 生年月   | 1992/10/18                                                                          |
+| 生年月日   | 1992/10/18                                                                          |
 | 居住地   | 東京都                                                                              |
 | 最終学歴 | 中央大学 法学部 政治学科                                                            |
 | 資格     | AWS Certified Solutions Architect Associate, LinuC レベル 1, 総合旅行業務取扱管理者 |
