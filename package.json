@@ -6,7 +6,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "lint": "textlint . && markdownlint **/*.md",
+    "lint": "textlint . && markdownlint **/*.md --ignore node_modules",
     "fix": "textlint --fix ."
   },
   "keywords": [],
